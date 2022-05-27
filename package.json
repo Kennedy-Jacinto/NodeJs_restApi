@@ -1,0 +1,13 @@
+{
+  "name": "iniciando_em_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts":{
+    "dev": "nodemon app.js" 
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

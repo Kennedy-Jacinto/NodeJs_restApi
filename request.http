@@ -1,0 +1,30 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "pasta",
+    "price": 3
+}
+
+###
+
+GET http://localhost:4002/products  
+
+
+###
+
+GET http://localhost:4002/products/1e211a50-7846-4e34-acd0-e740c4c01549
+
+
+###
+PUT  http://localhost:4002/products/1e211a50-7846-4e34-acd0-e740c4c01549
+Content-Type: application/json
+
+{
+    "name": "caderno vermelho",
+    "price": 13
+}
+
+###
+
+DELETE http://localhost:4002/products/f1ead60e-b622-4df0-97b6-91598106b490
